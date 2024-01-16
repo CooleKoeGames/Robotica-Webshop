@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --geel: #f9db49;
+    --zwart: #3d5555;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    background: white;
+}
+
+.logo {
+    color: var(--geel);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.logo i {
+    color: var(--geel);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.bar-bor {
+    color: var(--zwart);
+    border: 3px solid var(--zwart);
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+}
+
+.home-koop {
+    text-transform: none;
+}
+
+.barnav {
+    background: var(--zwart);
+}
+
+.test1 {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.test2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.h {
+    height: 50rem;
+}
+
+.navbar {
+    background: var(--zwart);
+}
+
+.navbar-brand {
+    color: var(--geel);
+}
+
+.navbar-brand:hover {
+    color: var(--geel);
+}
+
+.btn {
+    background: var(--geel);
+    border: 2px solid var(--geel);
+    color: var(--zwart);
+}
+
+.btn:hover {
+    background: var(--zwart);
+    border: 2px solid var(--geel);
+    color: var(--geel);
+}
+
+.bar {
+    color: var(--geel);
+    border: none;
+}
+
+.hoogt {
+    height: 400px;
+}
+
+.foto {
+    height: 300px;
+}
+
+.weight {
+    font-weight: bold;
+}
+
+.text-wit {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--geel);
+}
+
+.icon-groot {
+    font-size: 23px;
+    width: 45px;
+    height: 45px;
+}
+
+footer {
+    background: var(--zwart);
+}
+
+.ruimte {
+    padding-bottom: 2rem;
+}
+
+.ruimte-top {
+    padding-top: 1rem;
+}
+
+.ruimte-top-knop {
+    padding-top: 2rem;
+}
